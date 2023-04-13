@@ -9,31 +9,21 @@ In this deliverable, I created a Python script to visualize the weather of over 
 
 I made some scatter plots to showcase the following relationships:
 
-Latitude vs. Temperature
-
-Latitude vs. Humidity
-
-Latitude vs. Cloudiness
-
-Latitude vs. Wind Speed
+* Latitude vs. Temperature
+* Latitude vs. Humidity
+* Latitude vs. Cloudiness
+* Latitude vs. Wind Speed
 
 Next, I computed the linear regression for each relationship and created linear regression plots, including these: 
 
-Northern Hemisphere: Temperature vs. Latitude
-
-Southern Hemisphere: Temperature vs. Latitude
-
-Northern Hemisphere: Humidity vs. Latitude
-
-Southern Hemisphere: Humidity vs. Latitude
-
-Northern Hemisphere: Cloudiness vs. Latitude
-
-Southern Hemisphere: Cloudiness vs. Latitude
-
-Northern Hemisphere: Wind Speed vs. Latitude
-
-Southern Hemisphere: Wind Speed vs. Latitude
+* Northern Hemisphere: Temperature vs. Latitude
+* Southern Hemisphere: Temperature vs. Latitude
+* Northern Hemisphere: Humidity vs. Latitude
+* Southern Hemisphere: Humidity vs. Latitude
+* Northern Hemisphere: Cloudiness vs. Latitude
+* Southern Hemisphere: Cloudiness vs. Latitude
+* Northern Hemisphere: Wind Speed vs. Latitude
+* Southern Hemisphere: Wind Speed vs. Latitude
 
 Part 2: VacationPy
 
@@ -41,3 +31,11 @@ In this deliverable, I used my weather data skills to plan out future vacations.
 
 Here's the map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point displays the humidity in each city.
 ![Map_1](https://user-images.githubusercontent.com/124627601/231825880-344fba74-9fe6-49ee-b7a7-679ae25cac64.png)
+
+Next, I narrowed down the city_data_df DataFrame to find ideal weather condition that suited me. Using GeoApify API was able to find the first hotel for each city located within 5000 meters of the coordinates.
+
+Plotted the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
+<img width="1034" alt="Screenshot 2023-04-13 at 12 40 37 PM" src="https://user-images.githubusercontent.com/124627601/231827533-512bd426-996e-42b0-b491-cb99a7f110b6.png">
+
+
+
