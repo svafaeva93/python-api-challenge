@@ -6,6 +6,7 @@ In this assignment, I was aksed to use my knowledge of Python requests, APIs, an
 Even though the answer may seem obvious, here I have used a detailed approach to answer this question. 
 
 Part 1: WeatherPy
+
 In this deliverable, I created a Python script to visualize the weather of over 500 cities of varying distances from the equator. I used the citipy Python libraryLinks to an external site., the OpenWeatherMap APILinks to an external site., and some problem-solving skills to make a representative model of weather across cities. 
 
 I made some scatter plots to showcase the following relationships:
