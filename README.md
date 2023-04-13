@@ -1,6 +1,7 @@
 # Python-API - Weather Analysis and Choosing a Vacation Location  
 
 Background
+
 In this assignment, I was aksed to use my knowledge of Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
 Even though the answer may seem obvious, here I have used a detailed approach to answer this question. 
 
